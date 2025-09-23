@@ -24,4 +24,12 @@ public double dividir(double a, double b) {
         return a / b;
     }
 }
->>>>>>> origin/dividir
+
+    public double raizCuadrada(double numero) { 
+        if (numero < 0) {
+            throw new IllegalArgumentException("No se puede calcular raíz de número negativo");
+        } 
+        return Math.sqrt(numero);
+    }
+}
+
