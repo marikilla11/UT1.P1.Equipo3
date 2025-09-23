@@ -33,3 +33,6 @@ public double dividir(double a, double b) {
     }
 }
 
+public static double potencia(double base, double exponente) {
+    return Math.pow(base, exponente);
+}
